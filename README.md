@@ -1,7 +1,9 @@
 # Check SSL expiration date
 
 ```bash
-ssl_checker 
+[koji:ssl_checker]$ ./target/debug/ssl_checker example.com
+301
+[koji:ssl_checker]$ 
 ```
 
 # Build
